@@ -66,9 +66,11 @@ A projekt a következő emberekből áll:
 A projekt a következő munkaállomásokat fogja használni a munka során:
 
  - Munkaállomások: 5 db, Windows 11-es operációs rendszerrel
- - `Dell Inspiron 5558 laptop (CPU: i5 5200U, RAM: 8 GB, GPU: Nvidia 920M)`
- - `Acer Aspire 573g laptop (CPU: i3 5005U, RAM: 4 GB, GPU: Nvidia 920M)`
- - `Asztali számítógép (CPU: i7 7700k, RAM: 16GB, GPU: Nvidia GTX1070)`
+ - Lenovo ThinkBook 15 laptop (CPU: i5 5200U, RAM: 8 GB, GPU: Nvidia 920M)
+ - Lenovo Legion 5 laptop (CPU: i5 5005U, RAM: 4 GB, GPU: Nvidia 920M)
+ - Lenovo IdeaPad 5 (CPU: i7 7700k, RAM: 16GB, GPU: Nvidia GTX1070)
+ - Asus x515 (CPU: i3 7700k, RAM: 16GB, GPU: Nvidia GTX1070)
+ - Asus VivoBook 15 Pro (CPU: i5 7700k, RAM: 16GB, GPU: Nvidia GTX1070)
 
 A projekt a következő technológiákat/szoftvereket fogja használni a munka során: 
 
@@ -81,17 +83,9 @@ A projekt a következő technológiákat/szoftvereket fogja használni a munka s
 
 | Kockázat                                    | Leírás                                                                                                                                                                                     | Valószínűség | Hatás  |
 |---------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|--------|
-| `Betegség`                                  | `Súlyosságtól függően hátráltatja vagy bizonyos esetekben teljes mértékben korlátozza a munkavégzőt, így az egész projektre kihatással van. Megoldás: a feladatok átcsoportosítása`        | `nagy`       | `erős` |
-| `Kommunikációs fennakadás a csapattagokkal` | `A csapattagok között nem elégséges az információ áramlás, nem pontosan, esetleg késve vagy nem egyértelműen tájékoztatjuk egymást. Megoldás: még gyakoribb megbeszélések és ellenőrzések` | `kis`        | `erős` |
-
-```
-A rizikótényezők bemutatása, amely hátráltathatja a projekt befejezését. 
-Minden rizikót érdemes megemlíteni, részletezve, hogy mit jelent, 
-milyen valószínűséggel következhet be (kis, közepes és nagy), 
-mekkora a várható hatása (gyenge, közepes és erős) 
-és hogy milyen tervvel készültök, amennyiben egy ilyen esemény bekövetkezik. 
-Pl.: betegség, szoftver-hardver probléma, tag kiesése, extrém ZH időszak, pandémia, stb. 
-```
+| Betegség                                  | Súlyosságtól függően hátráltatja vagy bizonyos esetekben teljes mértékben korlátozza a munkavégzőt, így az egész projektre kihatással van. Megoldás: a feladatok átcsoportosítása        | nagy       | erős |
+| Kommunikációs fennakadás a csapattagokkal | A csapattagok között nem elégséges az információ áramlás, nem pontosan, esetleg késve vagy nem egyértelműen tájékoztatjuk egymást. Megoldás: még gyakoribb megbeszélések és ellenőrzések | kis        | erős |
+| Távollét/Elutazás | Ha valamelyik csapattag tervezetten vagy spontán elutazna akkor az ő feladatát átcsoportosítjuk a többi csapatagra. | nagy | gyenge
 
 ## 6. Jelentések
 
@@ -101,31 +95,26 @@ A munkát Nagy Ádám koordinálja. Fő feladata, hogy folyamatosan egyeztessen 
 //
 ### 6.2. Csoportgyűlések
 
-`A projekt hetente ülésezik, hogy megvitassák az azt megelőző hét problémáit, illetve hogy megbeszéljék a következő hét feladatait. A megbeszélésről minden esetben memó készül.`
+A projekt hetente ülésezik, hogy megvitassák az azt megelőző hét problémáit.
 
-`1. megbeszélés:`
- - `Időpont: 2021.09.15.`
- - `Hely: SZTE Irinyi épület - Szeged, Tisza Lajos krt. 103`
- - `Résztvevők: Teszt Elek, Remek Elek, Lev Elek`
- - `Érintett témák: Ismerkedés, projekttéma kiválasztása`
+1. megbeszélés:
+ - Időpont: 2024.09.23.
+ - Hely: Bohém kocsma - Szeged, Szentháromság utca 6.
+ - Résztvevők: Mindenki
+ - Érintett témák: Ismerkedés, projekttéma kiválasztása
 
-`2. megbeszélés:`
- - `Időpont: 2021.09.22.`
- - `Hely: Pivovár - Szeged, Vitéz utca 26.`
- - `Résztvevők: Teszt Elek, Remek Elek, Lev Elek`
- - `Érintett témák: A projektben használt technológiák rögzítése, a projektterv áttekintése, szerepkörök és vállalások kiosztása`
+2. megbeszélés:
+ - Időpont: 2024.09.30.
+ - Hely: TIK – Szeged, Ady tér 10.
+ - Résztvevők: Mindenki
+ - Érintett témák: A projektben használt technológiák rögzítése, a projektterv áttekintése, szerepkörök és vállalások kiosztása, az első mérföldkő elkészítése.
 
-`3. Megbeszélés:`
- - `Időpont: 2021.09.29.`
- - `Hely: TIK – Szeged, Ady tér 10.`
- - `Résztvevők: Teszt Elek, Remek Elek`
- - `Érintett témák: Egyeztetés az UML diagramokról, illetve az adatbázis táblák és kapcsolatok meghatározása`
+3. Megbeszélés:
+ - Időpont: 2024.10.01.
+ - Hely: TIK – Szeged, Ady tér 10.
+ - Résztvevők: Mindenki
+ - Érintett témák: Egyeztetés az UML diagramokról, illetve az adatbázis táblák és kapcsolatok meghatározása
 
-```
-A memókat a teljes projekt során vezetni kell, amely tartalmazza a következőket: 
-jelenlévők listája, megbeszélés helye és ideje, megbeszélt tevékenységek, felmerült kérdések és igények. 
-Lényege, hogy betekintést kapjunk hogyan szerveződnek, zajlanak a csoportgyűlések, milyen problémák, kérdések merültek fel.
-```
 
 ### 6.3. Minőségbiztosítás
 
@@ -149,14 +138,10 @@ Minden mérföldkő leadásnál a projekten dolgozók jelentést tesznek a mérf
 
 ### 7.1. Tervezett szoftverfolyamat modell és architektúra
 
-`A szoftver fejlesztése során az agilis fejlesztési modellt alkalmazzuk, mivel a fejlesztés során nagy hangsúlyt fektetünk a folyamatos kommunikcióra. A fejlesztés során a szoftver specifikációi rugalmasan vátozhatnak, és ezzel a módszertannal tudunk a leggyorsabban alkalmazkodni az új elvárásokhoz.`
+A szoftver fejlesztésekor az agilis módszertant alkalmazzuk, mivel a folyamatos kommunikáció kiemelt fontosságú számunkra. A specifikációk a fejlesztés során rugalmasan változhatnak, és ezzel a megközelítéssel a leggyorsabban tudunk reagálni az új elvárásokra.
 
-`A webalkalmazás az MVC (modell-view-controller) felépítést követi, a szerver és a kliens függetlenek, csupán API végpontok segítségével kommunikálnak.`
+A webalkalmazás felépítése az MVC (modell-view-controller) mintát követi, ahol a szerver és a kliens egymástól függetlenül működnek.
 
-```
-Milyen szoftverfolyamat modellt követve állítja elő a csapat a specifikációnak megfelelő prototípusokat? Miért ezt választja? 
-A csapat milyen architektúrát választ a projekt megvalósításához? Milyen rétegek (logikai, adat, GUI) lesznek?`
-```
 
 ### 7.2. Átadandók és határidők
 
