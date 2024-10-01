@@ -6,7 +6,7 @@
 
 ```
 Ide írj egy tömör és általános leírást (4-6 mondatban), hogy miről szól a projekt és miért van a weboldalra szükség. 
-Itt konkrét funkciót még nem kell megemlíteni.
+Itt konkrét funmég nem kell megemlíteni.
 
 A dokumentumban a szürke háttérrel rendelkező szövegnek illetve a blokkokkal (keretben) kiemelt szövegeknek két jelentése van: 
 (a) minta/sablon szöveg, amit le kell cserélni (pl. gyakorlatvezető neve).
