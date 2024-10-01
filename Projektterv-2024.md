@@ -33,27 +33,29 @@ A rendszernek képesnek kell lennie arra, hogy a szállásadók megtudják hirde
 
 ## 3. Költség- és erőforrás-szükségletek
 
-Az erőforrásigényünk összesen `57` személynap, átlagosan `19` személynap/fő.
+Az erőforrásigényünk összesen 56.5 személynap, átlagosan 11.3 személynap/fő.
 
 A rendelkezésünkre áll összesen 5 * 70 = 350 pont.
 
 
 ## 4. Szervezeti felépítés és felelősségmegosztás
 
-A projekt megrendelője Dr. Márkus András. A Szállás projektet a projektcsapat fogja végrehajtani, amely jelenleg öt fejlesztőből áll. A csapatban 5 pályakezdő webprogramozó található.
+A projekt megrendelője Dr. Pflanzner Tamás. A Szállás projektet a projektcsapat fogja végrehajtani, amely jelenleg öt fejlesztőből áll. A csapatban 5 pályakezdő webprogramozó található.
+ 
  - Péter Gergely (5. féléves PTI hallgató)
  - Magyari Máté (5. féléves PTI hallgató)
  - Pernyész Bettina (5. féléves PTI hallgató)
  - Fekete Kristóf (3. féléves MI hallagtó)
  - Nagy Ádám (3. féléves GI hallagtó)
+
 ### 4.1 Projektcsapat
 
 A projekt a következő emberekből áll:
 
 | Név          | Pozíció          |   E-mail cím (stud-os)        |
 |--------------|------------------|-------------------------------|
-| Nagy Ádám | Projektmenedzser | `h123456@stud.u-szeged.hu`    |
-| Péter Gergely | Projekt tag      | `h654321@stud.u-szeged.hu`    |
+| Nagy Ádám | Projektmenedzser | h268018@stud.u-szeged.hu    |
+| Péter Gergely | Projekt tag      | `h268639@stud.u-szeged.hu`    |
 | Magyari Máté   | Projekt tag      | `h000000@stud.u-szeged.hu`    |
 | Pernyész Bettina | Projekt tag | 
 | Fekete Kristóf | Projekt tag | 
@@ -127,7 +129,7 @@ Az alábbi lehetőségek vannak a szoftver megfelelő minőségének biztosítá
 
 ### 6.4. Átadás, eredmények elfogadása
 
-A projekt eredményeit a gyakorlat vezető, Dr. Márkus András fogja elfogadni. A projektterven változásokat csak a megrendelő írásos engedélyével lehet tenni. A projekt eredményesnek bizonyul, ha specifikáció helyes és határidőn belül készül el. Az esetleges késések pontlevonást eredményeznek. 
+A projekt eredményeit a gyakorlat vezető, Dr. Pflanzner Tamás fogja elfogadni. A projektterven változásokat csak a megrendelő írásos engedélyével lehet tenni. A projekt eredményesnek bizonyul, ha specifikáció helyes és határidőn belül készül el. Az esetleges késések pontlevonást eredményeznek. 
 Az elfogadás feltételeire és beadás formájára vonatkozó részletes leírás a következő honlapon olvasható: https://okt.inf.szte.hu/rf1/
 
 ### 6.5. Státuszjelentés
@@ -258,7 +260,7 @@ Ennek a feladatnak az a célja, hogy egy működő prototípust hozzunk létre, 
 
 Részfeladatai a következők:
 
-#### `8.3.1. Felhasználók kezelése (admin, szálláshirdető, szállásfoglaló) (CR)`
+#### 8.3.1. Felhasználók kezelése (admin, szálláshirdető, szállásfoglaló) (CR)
 
 Felelős: Péter Gergely
 
@@ -266,7 +268,7 @@ Tartam:  5 nap
 
 Erőforrásigény:  2 személynap
 
-#### `8.3.2. Felhasználók kezelése (admin, szálláshirdető, szállásfoglaló) (UD)`
+#### 8.3.2. Felhasználók kezelése (admin, szálláshirdető, szállásfoglaló) (UD)
 
 Felelős: Fekete Kristóf
 
@@ -274,7 +276,7 @@ Tartam:  4 nap
 
 Erőforrásigény:  2 személynap
 
-#### `8.3.3. Felhasználók kezeléséhez szükséges adatok létrehozása az adatbázisban`
+#### 8.3.3. Felhasználók kezeléséhez szükséges adatok létrehozása az adatbázisban
 
 Felelős: Pernyész Bettina
 
@@ -282,7 +284,7 @@ Tartam:  3 nap
 
 Erőforrásigény:  1 személynap
 
-#### `8.3.4. Felhasználói munkamenet megvalósítása több jogosultsági szinttel`
+#### 8.3.4. Felhasználói munkamenet megvalósítása több jogosultsági szinttel
 
 Felelős: Magyari Máté
 
@@ -290,7 +292,7 @@ Tartam:  10 nap
 
 Erőforrásigény:  2 személynap
 
-#### `8.3.5. Foglalások kezelése (CR)`
+#### 8.3.5. Foglalások kezelése (CR)
 
 Felelős: Péter Gergely
 
@@ -298,7 +300,7 @@ Tartam:  3 nap
 
 Erőforrásigény:  1 személynap
 
-#### `8.3.6. Foglalások kezelése (UD)`
+#### 8.3.6. Foglalások kezelése (UD)
 
 Felelős: Fekete Kristóf
 
@@ -306,7 +308,7 @@ Tartam:  3 nap
 
 Erőforrásigény:  1 személynap
 
-#### `8.3.7. Szállások kezelése (CR)`
+#### 8.3.7. Szállások kezelése (CR)
 
 Felelős: Pernyész Bettina
 
@@ -314,7 +316,7 @@ Tartam:  4 nap
 
 Erőforrásigény:  2 személynap
 
-#### `8.3.8. Szállások kezelése (UD)`
+#### 8.3.8. Szállások kezelése (UD)
 
 Felelős: Magyari Máté
 
@@ -322,7 +324,7 @@ Tartam:  3 nap
 
 Erőforrásigény:  1 személynap
 
-#### `8.3.9. Foglaláshoz szükséges adatok létrehozása az adatbázisban`
+#### 8.3.9. Foglaláshoz szükséges adatok létrehozása az adatbázisban
 
 Felelős: Nagy Ádám
 
@@ -330,7 +332,7 @@ Tartam:  4 nap
 
 Erőforrásigény:  2 személynap
 
-#### `8.3.10. Szállások kezeléséhez szükséges adatok létrehozása az adatbázisban`
+#### 8.3.10. Szállások kezeléséhez szükséges adatok létrehozása az adatbázisban
 
 Felelős: Pernyész Bettina
 
@@ -338,7 +340,7 @@ Tartam:  5 nap
 
 Erőforrásigény:  2 személynap
 
-#### `8.3.11. Email-es kiértesítés új foglalás esetén az adott szállásadónak`
+#### 8.3.11. Email-es kiértesítés új foglalás esetén az adott szállásadónak
 
 Felelős: Nagy Ádám
 
@@ -346,7 +348,7 @@ Tartam:  4 nap
 
 Erőforrásigény:  2 személynap
 
-#### `8.3.12. Szállásadó értékelése (CR)`
+#### 8.3.12. Szállásadó értékelése (CR)
 
 Felelős: Pernyész Bettina
 
@@ -354,7 +356,7 @@ Tartam:  5 nap
 
 Erőforrásigény:  3 személynap
 
-#### `8.3.13. Szállásadó értékelése (UD)`
+#### 8.3.13. Szállásadó értékelése (UD)
 
 Felelős: Fekete Kristóf
 
@@ -362,7 +364,7 @@ Tartam:  5 nap
 
 Erőforrásigény:  3 személynap
 
-#### `8.3.14. Szállásfoglaló értékelése (CR)`
+#### 8.3.14. Szállásfoglaló értékelése (CR)
 
 Felelős: Péter Gergely
 
@@ -370,7 +372,7 @@ Tartam:  5 nap
 
 Erőforrásigény:  3 személynap
 
-#### `8.3.15. Szállásfoglaló értékelése (UD)`
+#### 8.3.15. Szállásfoglaló értékelése (UD)
 
 Felelős: Nagy Ádám
 
@@ -387,7 +389,7 @@ Tartam:  7 nap
 Erőforrásigény:  1 személynap/fő
 
 
-#### `8.3.17. A prototípus kitelepítése éles környezetbe` 
+#### 8.3.17. A prototípus kitelepítése éles környezetbe 
 
 Felelős: Magyari Máté
 
@@ -426,7 +428,7 @@ Tartam:  5 nap
 
 Erőforrásigény:  1.5 személynap
 
-#### `8.4.4. Felhasználói munkamenet tesztelése (TR)`
+#### 8.4.4. Felhasználói munkamenet tesztelése (TR)
 
 Felelős: Fekete Kristóf
 
@@ -434,7 +436,7 @@ Tartam:  1 nap
 
 Erőforrásigény:  1 személynap
 
-#### `8.4.5. Foglalások kezelésének tesztelése (TR)`
+#### 8.4.5. Foglalások kezelésének tesztelése (TR)
 
 Felelős: Magyari Máté
 
@@ -442,7 +444,7 @@ Tartam:  1 nap
 
 Erőforrásigény:  0.5 személynap
 
-#### `8.4.6. Szállások kezelésének tesztelése (TR)`
+#### 8.4.6. Szállások kezelésének tesztelése (TR)
 
 Felelős: Péter Gergely
 
@@ -450,7 +452,7 @@ Tartam:  1 nap
 
 Erőforrásigény:  1 személynap
 
-#### `8.4.7. Email-es funkciók tesztelése (TR)`
+#### 8.4.7. Email-es funkciók tesztelése (TR)
 
 Felelős: Nagy Ádám
 
@@ -459,7 +461,7 @@ Tartam:  1 nap
 Erőforrásigény:  0.5 személynap
 
 
-#### `8.4.8. Biztonsági mentés tesztelése (TR)`
+#### 8.4.8. Biztonsági mentés tesztelése (TR)
 
 Felelős: Pernyész Bettina
 
@@ -467,7 +469,7 @@ Tartam:  1 nap
 
 Erőforrásigény:  0.5 személynap
 
-#### `8.4.9. A prototípus kitelepítésének frissítése`
+#### 8.4.9. A prototípus kitelepítésének frissítése
 
 Felelős: Fekete Kristóf
 
@@ -483,12 +485,10 @@ Erőforrásigény:  0.5 személynap
 
 ## 10. Projekt költségvetés
 
-```
 Az egyes leadások alkalmával rögzített erőforrásigényt, az elvállalt feladatok számát 
 és az adott mérföldkőben végzett munkáért szerezhető pontszámot kell beírni minden emberre külön-külön.
 Figyeljünk arra, hogy mivel mindenkinek minden mérföldkövön dolgoznia kell, ezért a 10.3-as táblázat
 minden módosítható oszlopában legalább 1 pontnak szerepelni kell.
-```
 
 ### 10.1. Részletes erőforrásigény (személynap)
 
@@ -506,11 +506,11 @@ minden módosítható oszlopában legalább 1 pontnak szerepelni kell.
 
 | Név              |  M1 | M2  | M3 |  M4  | Összesen |
 |------------------|-----|-----|----|------|----------|
-| Fekete Kristóf   |  1  |  1  |  3 | `4`  | `15`     |
-| Magyari Máté     |  2  |  2  |  3 | `4`  | `14`     |
-| Pernyész Bettina |  1  |  2  |  4 | `4`  | `14`     |
-| Péter Gergely    |  1  |  1  |  4 |
-| Nagy Ádám        |  1  |  1  |  3 |
+| Fekete Kristóf   |  1  |  1  |  3 |   3  |     8    |
+| Magyari Máté     |  2  |  2  |  3 |   1  |     8    |
+| Pernyész Bettina |  1  |  2  |  4 |   1  |     8    |
+| Péter Gergely    |  1  |  1  |  4 |   2  |     8    |
+| Nagy Ádám        |  1  |  1  |  3 |   2  |     7    |
 
 ### 10.3. Részletes költségvetés
 
@@ -520,7 +520,7 @@ minden módosítható oszlopában legalább 1 pontnak szerepelni kell.
 | Fekete Kristóf                      | `7`     | `10`     | `28`     |  `25`    | 70        |
 | Magyari Máté                        | `4`     | `15`     | `35`     |  `16`    | 70        |
 | Pernyész Bettina                    | `4`     | `12`     | `30`     |  `24`    | 70        |
-| Péter Gergely                       |
-| Nagy Ádám                           | 
+| Péter Gergely                       |         |          |          |          |           |
+| Nagy Ádám                           |         |          |          |          |           |
 
 Szeged, 2024-10-01.
