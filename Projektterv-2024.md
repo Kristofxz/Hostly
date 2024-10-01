@@ -170,182 +170,177 @@ Alapvetően egy feladatnak 1 felelőse lehet, de kivételt képez pl. a 9.1.1. r
 
 ### 8.1. Projektterv (1. mérföldkő)
 
-Ennek a feladatnak az a célja, hogy `megvalósításhoz szükséges lépéseket, az erőforrásigényeket, az ütemezést, a felelősöket és a feladatok sorrendjét meghatározzuk, majd vizualizáljuk Gantt diagram segítségével.`
+Ennek a feladatnak az a célja, hogy megvalósításhoz szükséges lépéseket, az erőforrásigényeket, az ütemezést, a felelősöket és a feladatok sorrendjét meghatározzuk, majd vizualizáljuk Gantt diagram segítségével.
 
 Részfeladatai a következők:
 
 #### 8.1.1. Projektterv kitöltése
 
-Felelős: `Mindenki`
+Felelős: Mindenki
 
-Tartam:  `4 nap`
+Tartam:  3 nap
 
-Erőforrásigény:  `1 személynap/fő`
+Erőforrásigény:  1 személynap/fő
 
 
 #### 8.1.2. Bemutató elkészítése
 
-Felelős: `Teszt Elek`
+Felelős: Magyari Máté
 
-Tartam:  `2 nap`
+Tartam:  2 nap
 
-Erőforrásigény:  `0.5 személynap`
+Erőforrásigény:  0.5 személynap
 
-```
-A mérföldkőhöz tartozó feladatok bemutatása PPT keretében, pl. téma, tervezett funkciók, tagok, Gantt diagram.`
-```
 
 ### 8.2. UML és adatbázis- és képernyőtervek (2. mérföldkő)
 
-Ennek a feladatnak az a célja, hogy `a rendszerarchitektúrát, az adatbázist és webalkalmazás kinézetét megtervezzük.`
+Ennek a feladatnak az a célja, hogy a rendszerarchitektúrát, az adatbázist és webalkalmazás kinézetét megtervezzük.
 
 Részfeladatai a következők:
 
 #### 8.2.1. Use Case diagram
 
-Felelős: `Teszt Elek`
+Felelős: Péter Gergely
 
-Tartam:  `3 nap`
+Tartam:  3 nap
 
-Erőforrásigény:  `1 személynap`
+Erőforrásigény:  1 személynap
 
 #### 8.2.2. Class diagram
 
-Felelős: `Lev Elek`
+Felelős: Magyari Máté
 
-Tartam:  `4 nap`
+Tartam:  4 nap
 
-Erőforrásigény:  `2 személynap`
+Erőforrásigény:  2 személynap
 
 #### 8.2.3. Sequence diagram
 
-Felelős: `Remek Elek`
+Felelős: Fekete Kristóf
 
-Tartam:  `3 nap`
+Tartam:  3 nap
 
-Erőforrásigény:  `2 személynap`
+Erőforrásigény:  2 személynap
 
 #### 8.2.4. Egyed-kapcsolat diagram adatbázishoz
 
-Felelős: `Remek Elek`
+Felelős: Pernyész Bettina
 
-Tartam:  `4 nap`
+Tartam:  4 nap
 
-Erőforrásigény:  `2 személynap`
+Erőforrásigény:  2 személynap
 
 #### 8.2.5. Package diagram
 
-Felelős: `Teszt Elek`
+Felelős: Nagy Ádám
 
-Tartam:  `3 nap`
+Tartam:  3 nap
 
-Erőforrásigény:  `0.5 személynap`
+Erőforrásigény:  0.5 személynap
 
 #### 8.2.6. Képernyőtervek
 
-Felelős: `Teszt Elek`
+Felelős: Magyari Máté
 
-Tartam:  `3 nap`
+Tartam:  3 nap
 
-Erőforrásigény:  `1 személynap`
+Erőforrásigény:  1 személynap
 
 #### 8.2.7. Bemutató elkészítése
 
-Felelős: `Lev Elek`
+Felelős: Pernyész Bettina
 
-Tartam:  `1 nap`
+Tartam:  1 nap
 
-Erőforrásigény:  `0.5 személynap`
+Erőforrásigény:  0.5 személynap
 
-```
-A mérföldkőhöz tartozó feladatok bemutatása PPT keretében (elkészült diagramok és képernyőtervek)`
-```
 
 ### 8.3. Prototípus I. (3. mérföldkő)
 
-Ennek a feladatnak az a célja, hogy `egy működő prototípust hozzunk létre, ahol a vállalt funkcionális követelmények nagy része már prezentálható állapotban van.` 
+Ennek a feladatnak az a célja, hogy egy működő prototípust hozzunk létre, ahol a vállalt funkcionális követelmények nagy része már prezentálható állapotban van. 
 
 Részfeladatai a következők:
 
-#### `8.3.1. Felhasználók kezelése (admin, raktáros, sofőr) (CR)`
+#### `8.3.1. Felhasználók kezelése (admin, szálláshirdető, szállásfoglaló) (CR)`
 
-Felelős: `Teszt Elek`
+Felelős: Péter Gergely
 
-Tartam:  `5 nap`
+Tartam:  5 nap
 
-Erőforrásigény:  `2 személynap`
+Erőforrásigény:  2 személynap
 
-#### `8.3.2. Felhasználók kezelése (admin, raktáros, sofőr) (UD)`
+#### `8.3.2. Felhasználók kezelése (admin, szálláshirdető, szállásfoglaló) (UD)`
 
-Felelős: `Remek Elek`
+Felelős: Fekete Kristóf
 
-Tartam:  `4 nap`
+Tartam:  4 nap
 
-Erőforrásigény:  `2 személynap`
+Erőforrásigény:  2 személynap
 
 #### `8.3.3. Felhasználók kezeléséhez szükséges adatok létrehozása az adatbázisban`
 
-Felelős: `Lev Elek`
+Felelős: Pernyész Bettina
 
-Tartam:  `3 nap`
+Tartam:  3 nap
 
-Erőforrásigény:  `1 személynap`
+Erőforrásigény:  1 személynap
 
 #### `8.3.4. Felhasználói munkamenet megvalósítása több jogosultsági szinttel`
 
-Felelős: `Teszt Elek `
+Felelős: Magyari Máté
 
-Tartam:  `10 nap`
+Tartam:  10 nap
 
-Erőforrásigény:  `2 személynap`
+Erőforrásigény:  2 személynap
 
-#### `8.3.5. Raktárak kezelése (CRUD)`
+#### `8.3.6. Foglalások kezelése (CR)`
 
-Felelős: `Teszt Elek`
+Felelős: Péter Gergely
 
-Tartam:  `3 nap`
+Tartam:  3 nap
 
-Erőforrásigény:  `1 személynap`
+Erőforrásigény:  1 személynap
 
-#### `8.3.6. Raktárkezeléshez szükséges adatok létrehozása az adatbázisban`
+#### `8.3.7. Foglalások kezelése (UD)`
 
-Felelős: `Remek Elek`
+Felelős: Fekete Kristóf
 
-Tartam:  `4 nap`
+Tartam:  3 nap
 
-Erőforrásigény:  `2 személynap`
+Erőforrásigény:  1 személynap
 
-#### `8.3.7. Árukészletek kezelése (C)`
+#### `8.3.8. Szállások kezelése (CR)`
 
-Felelős: `Remek Elek `
+Felelős: Pernyész Bettina
 
-Tartam:  `4 nap`
+Tartam:  4 nap
 
-Erőforrásigény:  `2 személynap`
+Erőforrásigény:  2 személynap
 
-#### `8.3.8. Árukészletek kezelése (R)`
+#### `8.3.9. Szállások kezelése (UD)`
 
-Felelős: `Lev Elek`
+Felelős: Magyari Máté
 
-Tartam:  `3 nap`
+Tartam:  3 nap
 
-Erőforrásigény:  `1 személynap`
+Erőforrásigény:  1 személynap
 
-#### `8.3.9. Árukészletek kezelése (UD)`
+#### `8.3.5. Foglaláshoz szükséges adatok létrehozása az adatbázisban`
 
-Felelős: `Lev Elek`
+Felelős: Nagy Ádám
 
-Tartam:  `5 nap`
+Tartam:  4 nap
 
-Erőforrásigény:  `2 személynap`
+Erőforrásigény:  2 személynap
 
-#### `8.3.10. Árukészletek kezeléséhez szükséges adatok létrehozása az adatbázisban`
 
-Felelős: `Lev Elek`
+#### `8.3.10. Szállások kezeléséhez szükséges adatok létrehozása az adatbázisban`
 
-Tartam:  `5 nap`
+Felelős: Pernyész Bettina
 
-Erőforrásigény:  `2 személynap`
+Tartam:  5 nap
+
+Erőforrásigény:  2 személynap
 
 #### `8.3.11. Járművek kezelése (CRUD) és a szükséges adatok létrehozása az adatbázisban`
 
