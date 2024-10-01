@@ -55,10 +55,10 @@ A projekt a következő emberekből áll:
 | Név          | Pozíció          |   E-mail cím (stud-os)        |
 |--------------|------------------|-------------------------------|
 | Nagy Ádám | Projektmenedzser | h268018@stud.u-szeged.hu    |
-| Péter Gergely | Projekt tag      | `h268639@stud.u-szeged.hu`    |
-| Magyari Máté   | Projekt tag      | `h000000@stud.u-szeged.hu`    |
-| Pernyész Bettina | Projekt tag | 
-| Fekete Kristóf | Projekt tag | 
+| Péter Gergely | Projekt tag      | h268639@stud.u-szeged.hu    |
+| Magyari Máté   | Projekt tag      | h267383@stud.u-szeged.hu    |
+| Pernyész Bettina | Projekt tag | h162796@stud.u-szeged.hu
+| Fekete Kristóf | Projekt tag | h355812@stud.u-szeged.hu |
 
 
 ## 5. A munka feltételei
@@ -68,11 +68,11 @@ A projekt a következő emberekből áll:
 A projekt a következő munkaállomásokat fogja használni a munka során:
 
  - Munkaállomások: 5 db, Windows 11-es operációs rendszerrel
- - Lenovo ThinkBook 15 laptop (CPU: i5 5200U, RAM: 8 GB, GPU: Nvidia 920M)
- - Lenovo Legion 5 laptop (CPU: i5 5005U, RAM: 4 GB, GPU: Nvidia 920M)
+ - Lenovo ThinkBook 15 laptop (CPU: i5 5200U, RAM: 8 GB, GPU: Intel Iris Xe)
+ - Lenovo Legion 5 laptop (CPU: i5 5005U, RAM: 8 GB, GPU: Nvidia 920M)
  - Lenovo IdeaPad 5 (CPU: i7 7700k, RAM: 16GB, GPU: Nvidia GTX1070)
  - Asus x515 (CPU: i3 7700k, RAM: 16GB, GPU: Nvidia GTX1070)
- - Asus VivoBook 15 Pro (CPU: i5 7700k, RAM: 16GB, GPU: Nvidia GTX1070)
+ - Asus VivoBook 15 Pro (CPU: Ryzen 5 5600h, RAM: 16GB, GPU: Nvidia RTX3050)
 
 A projekt a következő technológiákat/szoftvereket fogja használni a munka során: 
 
@@ -122,10 +122,10 @@ A projekt hetente ülésezik, hogy megvitassák az azt megelőző hét problém�
 
 Az elkészült terveket a terveken nem dolgozó csapattársak közül átnézik, hogy megfelel-e a specifikációnak és az egyes diagramtípusok összhangban vannak-e egymással. A meglévő rendszerünk helyes működését a prototípusok bemutatása előtt a tesztelési dokumentumban leírtak végrehajtása alapján ellenőrizzük és összevetjük a specifikációval, hogy az elvárt eredményt kapjuk-e. További tesztelési lehetőségek: unit tesztek írása az egyes modulokhoz vagy a kód közös átnézése (code review) egy, a vizsgált modul programozásában nem résztvevő csapattaggal. Szoftverünk minőségét a végső leadás előtt javítani kell a rendszerünkre lefuttatott kódelemzés során kapott metrikaértékek és szabálysértések figyelembevételével.
 Az alábbi lehetőségek vannak a szoftver megfelelő minőségének biztosítására:
-- Specifikáció és tervek átnézése (kötelező)
-- Teszttervek végrehajtása (kötelező)
-- Unit tesztek írása (választható)
-- Kód átnézése (választható)
+- Specifikáció és tervek átnézése
+- Teszttervek végrehajtása
+- Unit tesztek írása
+- Kód átnézése
 
 ### 6.4. Átadás, eredmények elfogadása
 
@@ -152,23 +152,17 @@ A főbb átadandók és határidők a projekt időtartama alatt a következők:
 
 | Szállítandó |                 Neve                                                        |   Határideje  |
 |:-----------:|:---------------------------------------------------------------------------:|:-------------:|
-|      D1     |      Projektterv és Gantt chart, prezentáció, egyéni jelentés               | `2021-10-04`  |
-|    P1+D2    |      UML, adatbázis- és képernyőtervek, prezentáció, egyéni jelentés        | `2021-10-18`  |
-|    P1+D3    |      Prototípus I. és tesztelési dokumentáció, egyéni jelentés              | `2021-11-08`  |
-|    P2+D4    |      Prototípus II. és frissített tesztelési dokumentáció, egyéni jelentés  | `2021-11-27`  |
+|      D1     |      Projektterv és Gantt chart, prezentáció, egyéni jelentés               | 2024-10-14  |
+|    P1+D2    |      UML, adatbázis- és képernyőtervek, prezentáció, egyéni jelentés        | 2024-10-28  |
+|    P1+D3    |      Prototípus I. és tesztelési dokumentáció, egyéni jelentés              | 2024-11-18  |
+|    P2+D4    |      Prototípus II. és frissített tesztelési dokumentáció, egyéni jelentés  | 2024-12-02  |
 
-```
 D - dokumentáció, P - prototípus
-```
 
 ## 8. Feladatlista
 
 A következőkben a tervezett feladatok részletes összefoglalása található.
 
-```
-Alapvetően egy feladatnak 1 felelőse lehet, de kivételt képez pl. a 9.1.1. részfeladat, mivel az első mérföldkőben
-2 kötelező feladat van, ezt nem bontjuk részfeladatokra.
-```
 
 ### 8.1. Projektterv (1. mérföldkő)
 
