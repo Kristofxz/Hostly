@@ -94,7 +94,6 @@ A projekt a következő technológiákat/szoftvereket fogja használni a munka s
 ### 6.1. Munka menedzsment
 A munkát Nagy Ádám koordinálja. Fő feladata, hogy folyamatosan egyeztessen a csapattagokkal az előrehaladásról és a fellépő problémákról, esetlegesen a megoldásban is segítséget nyújhat a projekt csúszásának elkerülése végett. További feladata a heti szinten tartandó csoportgyűlések időpontjának és helyszínének leszervezése, erről discordon/messengeren tájékoztatja a projektcsapatot.
 
-//
 ### 6.2. Csoportgyűlések
 
 A projekt hetente ülésezik, hogy megvitassák az azt megelőző hét problémáit.
