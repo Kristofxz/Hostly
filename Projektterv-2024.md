@@ -173,7 +173,7 @@ Részfeladatai a következők:
 
 #### 8.1.1. Projektterv kitöltése
 
-Felelős: Mindenki
+Felelős: Nagy Ádám
 
 Tartam:  3 nap
 
