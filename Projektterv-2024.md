@@ -441,6 +441,7 @@ Erőforrásigény:  0.5 személynap
 
 #### 8.4.6. Szállások kezelésének tesztelése (TR)
 
+
 Felelős: Péter Gergely
 
 Tartam:  1 nap
