@@ -87,7 +87,9 @@ A projekt a következő technológiákat/szoftvereket fogja használni a munka s
 |---------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|--------|
 | Betegség                                  | Súlyosságtól függően hátráltatja vagy bizonyos esetekben teljes mértékben korlátozza a munkavégzőt, így az egész projektre kihatással van. Megoldás: a feladatok átcsoportosítása        | nagy       | erős |
 | Kommunikációs fennakadás a csapattagokkal | A csapattagok között nem elégséges az információ áramlás, nem pontosan, esetleg késve vagy nem egyértelműen tájékoztatjuk egymást. Megoldás: még gyakoribb megbeszélések és ellenőrzések | kis        | erős |
-| Távollét/Elutazás | Ha valamelyik csapattag tervezetten vagy spontán elutazna akkor az ő feladatát átcsoportosítjuk a többi csapatagra. | nagy | gyenge
+| Távollét/Elutazás | Ha valamelyik csapattag tervezetten vagy spontán elutazna akkor az ő feladatát átcsoportosítjuk a többi csapatagra. | nagy | gyenge |
+Csapattag feladja a kurzust | Ha valaki a csapatból úgy dönt nem kívánja teljesíteni a kurzust akkor komoly feladat átcsoportosításra lenne szükség és a pontok újra tárgyalására. | kis | erős |
+Csapatag nem hajlandó hozzájárulni a munkához | Többszöri felhívásra sem hajlandó beletenni energiát és munkát a rákiosztott feladatra, ezáltal a többi csapattagnak lesz vele munkája ami által a pontokat máshogy szervezzük át. | kis | erős
 
 ## 6. Jelentések
 
@@ -171,7 +173,7 @@ Részfeladatai a következők:
 
 #### 8.1.1. Projektterv kitöltése
 
-Felelős: Mindenki
+Felelős: Nagy Ádám
 
 Tartam:  3 nap
 
