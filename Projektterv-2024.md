@@ -475,7 +475,7 @@ Erőforrásigény:  0.5 személynap
 
 ## 9. Részletes időbeosztás
 
-[image](./Gantkep.png)
+[image](./Gantt-chart.png)
 
 
 ## 10. Projekt költségvetés
@@ -512,10 +512,10 @@ minden módosítható oszlopában legalább 1 pontnak szerepelni kell.
 | Név                                 | M1      | M2       | M3       | M4       | Összesen  |
 |-------------------------------------|---------|----------|----------|----------|-----------|
 | Maximálisan megszerezhető pontszám  |  (7)    | (20)     | (35)     |  (28)    | 100% (70) |
-| Fekete Kristóf                      | `7`     | `10`     | `28`     |  `25`    | 70        |
-| Magyari Máté                        | `4`     | `15`     | `35`     |  `16`    | 70        |
-| Pernyész Bettina                    | `4`     | `12`     | `30`     |  `24`    | 70        |
-| Péter Gergely                       |         |          |          |          |           |
-| Nagy Ádám                           |         |          |          |          |           |
+| Fekete Kristóf                      | 7     | 10     | 28     |  25    | 70        |
+| Magyari Máté                        | 4     | 15     | 35     |  16    | 70        |
+| Pernyész Bettina                    | 4     | 12     | 30     |  24    | 70        |
+| Péter Gergely                       |    5     |      15    |    31      |    19      |           |
+| Nagy Ádám                           |     6    |      13    |     28     |    23      |           |
 
 Szeged, 2024-10-01.
