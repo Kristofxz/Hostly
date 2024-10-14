@@ -75,8 +75,7 @@ A projekt a következő munkaállomásokat fogja használni a munka során:
  - Asus VivoBook 15 Pro (CPU: Ryzen 5 5600h, RAM: 16GB, GPU: Nvidia RTX3050)
 
 A projekt a következő technológiákat/szoftvereket fogja használni a munka során: 
-
- - Angular 
+ 
  - MySQL
  - Node.js
  - Git verziókövető (GitLab)
