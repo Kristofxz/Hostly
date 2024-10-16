@@ -24,6 +24,42 @@ A rendszernek képesnek kell lennie arra, hogy a szállásadók megtudják hirde
 - (opcionális) Kiértékelés a szállásadórol
 - (opcionális) Kiértékelés a szállásfoglalóról
 
+Bővebben kifejtve:
+
+1. Felhasználói fiókok kezelése
+   - Regisztráció és bejelentkezés: Felhasználók (adminisztrátorok, szálláshirdetők, szállásfoglalók) képesek      regisztrálni és bejelentkezni.
+   - Profilkezelés: Felhasználók frissíthetik személyes adataikat (név, email cím, jelszó stb.).
+   - Jogosultsági szintek kezelése: Adminisztrátorok, szálláshirdetők, és szállásfoglalók különböző funkciókhoz férhetnek hozzá.
+   - Felhasználók törlése: Az adminisztrátorok törölhetik bármely felhasználó fiókját.
+
+2. Szállások hirdetése és kezelése
+   - Szállás hirdetése: Szálláshirdetők képesek új szállásokat felvenni, feltöltve a szükséges adatokat (cím, leírás, képek, ár stb.).
+   - Szállás szerkesztése és törlése: A szálláshirdetők módosíthatják vagy törölhetik saját hirdetéseiket.
+   - Szállások részletezése: Szállásfoglalók megnézhetik a szállások részleteit (képek, ár, leírás).
+   - Szállás keresés: Szállásfoglalók kulcsszavak és szűrők alapján (pl. ár, elhelyezkedés, felszereltség) kereshetnek szállásokat.
+
+3. Foglalások kezelése
+   - Szállásfoglalás: A szállásfoglalók képesek szállásokat lefoglalni megadott időintervallumokra.
+   - Foglalás módosítása és lemondása: A szállásfoglalók módosíthatják vagy lemondhatják saját foglalásaikat.
+   - Foglalási visszaigazolás: Minden foglalásról visszaigazoló email küldése a szállásfoglalónak és a szálláshirdetőnek.
+   - Foglalások megtekintése: Szálláshirdetők és szállásfoglalók egyaránt megtekinthetik saját foglalásaikat.
+
+4. Értékelések és visszajelzések (opcionális)
+   - Szállásadó értékelése: Szállásfoglalók értékelhetik a szálláshirdetőt és a szállást a tartózkodás után.
+   - Szállásfoglaló értékelése: A szálláshirdetők visszajelzést adhatnak a szállásfoglalókról.
+
+5. Adminisztrátori funkciók
+   - Felhasználók kezelése: Az adminisztrátorok felhasználókat tudnak törölni, figyelmeztetéseket küldeni, vagy jogosultságokat módosítani.
+   - Hirdetések felügyelete: Adminisztrátorok képesek szálláshirdetéseket szerkeszteni, vagy törölni, ha azok sértik az oldal szabályzatát.
+
+6. Email értesítések (opcionális)
+   - Foglalási értesítés: Foglalási visszaigazolás emailen a szállásfoglalóknak és szálláshirdetőknek.
+   - Szállásfoglalás lemondásának értesítése: Értesítés küldése emailben a szálláshirdetőknek, ha egy foglalást lemondanak.
+
+7. Keresési és szűrési funkciók
+   - Szállások szűrése: A szálláskeresők különböző szűrési feltételek alapján kereshetnek (ár, elhelyezkedés, felszereltség, értékelések).
+   - Foglalási időpont ellenőrzése: Foglalható időpontok ellenőrzése valós időben a kiválasztott szállás részleteinél.
+
 
 ### 2.3. Nem funkcionális követelmények
 
