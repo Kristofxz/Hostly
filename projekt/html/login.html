@@ -71,7 +71,7 @@
     </footer>
     <script>
       const loginForm = document.getElementById('loginForm');
-loginForm.addEventListener('submit', async (event) => {
+      loginForm.addEventListener('submit', async (event) => {
   event.preventDefault();  
 
   const email = document.getElementById('email').value;
@@ -88,9 +88,12 @@ loginForm.addEventListener('submit', async (event) => {
 
     if (response.ok) {
       const data = await response.json();
-      console.log(data.message); 
+      console.log(data.message);
 
-   
+      // Token elmentése localStorage-ba (vagy sessionStorage-ba, ha szükséges)
+      localStorage.setItem('jwtToken', data.token);
+
+      // Átirányítás a főoldalra
       window.location.href = 'main.html'; 
     } else {
       const errorData = await response.text();
@@ -102,6 +105,23 @@ loginForm.addEventListener('submit', async (event) => {
     alert('An error occurred');
   }
 });
+const authenticateJWT = (req, res, next) => {
+  const token = req.headers.authorization?.split(' ')[1];  // Token az Authorization headerből
+
+  if (!token) {
+    return res.status(401).send('Access denied. No token provided.');
+  }
+
+  jwt.verify(token, secretKey, (err, user) => {
+    if (err) {
+      return res.status(403).send('Invalid token.');
+    }
+    req.user = user; 
+    next();
+  });
+};
+
+
     </script>
   </body>
 </html>

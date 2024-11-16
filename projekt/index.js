@@ -102,6 +102,20 @@ const authenticateJWT = (req, res, next) => {
   });
 };
 
+app.get('/api/user', (req, res) => {
+  const userId = req.query.id;  
+  const sql = 'SELECT email, vNev, kNev FROM users WHERE id = ?';
+
+  db.query(sql, [userId], (err, result) => {
+    if (err) throw err;
+    if (result.length > 0) {
+      res.json(result[0]); 
+    } else {
+      res.status(404).json({ message: 'User not found' });
+    }
+  });
+});
+
 app.get('/protected', authenticateJWT, (req, res) => {
   res.send(`Welcome, ${req.user.email}`);
 });
