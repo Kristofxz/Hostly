@@ -1,0 +1,8 @@
+<section class="user-wishlist">
+      <h2>Kívánságlista</h2>
+      <stay-list  *ngIf="stays?.length" [stays]="stays"></stay-list>
+      <div *ngIf="!stays?.length" class="empty-wishlist">
+            <h3>Hozzd létre az első kivánságlistádat!</h3>
+            <p>Nyomd meg a szív ikont, hogy szállás bekerüljön a kivánságlistádba.</p>
+      </div>
+</section>

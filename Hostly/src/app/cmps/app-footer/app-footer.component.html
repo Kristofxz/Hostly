@@ -1,0 +1,38 @@
+<footer class='app-footer main-layout'>
+  <div class='footer-content '>
+    <ul>
+      <li>Közösség</li>
+      <li>Látogass el a közösségi fórumunkra</li>
+    </ul>
+    <ul>
+      <li>Vendéglátás</li>
+      <li>Legyél Airbnb házigazda</li>
+      <li>Hogyan lehetsz felelősségteljes házigazda</li>
+      <li>Hostly-barát apartmanok</li>
+    </ul>
+    <ul>
+      <li>Rólunk</li>
+      <li>Ismerd meg az új funkciókat</li>
+      <li>Karrierlehetőségek</li>
+      <li>Befektetők</li>
+      <li>Ajándékkártyák</li>
+    </ul>
+  </div>
+  <div class="footer-credits">
+    <p>© 2024 Hostly. Minden jog fenntartva.</p>
+  </div>
+</footer>
+
+<footer class="mobile-footer main-layout full">
+  <div class="footer-content">
+    <img routerLink="/" class="logo" src="https://res.cloudinary.com/du63kkxhl/image/upload/v1681629704/logo_smny53.png" alt="">
+    <div class="menu" (click)="onToggleHeaderMenuModal()">
+      <fa-icon [icon]="faBars"></fa-icon>
+      <img [src]="getUserImg()" alt="">
+
+      <header-menu-modal (onToggleHeaderMenuModal)="onToggleHeaderMenuModal()"
+        (toggleLanguageModal)="onToggleLanguageModal()" [isOpenLanguageModal]="isOpenLanguageModal"
+        [isOpenFooter]="true" *ngIf="isShowHeaderMenuModal"></header-menu-modal>
+    </div>
+  </div>
+</footer>

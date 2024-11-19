@@ -1,0 +1,85 @@
+<section class="edit-stay">
+      <form (submit)="onAddStay()" standalone>
+            <input type="text" [(ngModel)]="stay.name" name="name" placeholder="Szállás név..">
+            <div class='img-picker'>
+                  <label htmlFor="imgUpload">
+                        <div *ngIf="!imgData[0].imgUrl" class="upload-img-btn">
+                              <span class="material-symbols-outlined">upload</span>
+                        </div>
+                        <img *ngIf="imgData[0].imgUrl" class="user-img" [src]="imgData[0].imgUrl" alt="" />
+                        <input type="file" (change)="uploadImg($event , 0)" accept="img/*" id="imgUpload" />
+                  </label>
+                  <label htmlFor="imgUpload">
+                        <div *ngIf="!imgData[1].imgUrl" class="upload-img-btn">
+                              <span class="material-symbols-outlined">upload</span>
+                        </div>
+                        <img *ngIf="imgData[1].imgUrl" class="user-img" [src]="imgData[1].imgUrl" alt="" />
+                        <input type="file" (change)="uploadImg($event, 1)" accept="img/*" id="imgUpload" />
+                  </label>
+                  <label htmlFor="imgUpload">
+                        <div *ngIf="!imgData[2].imgUrl" class="upload-img-btn">
+                              <span class="material-symbols-outlined">upload</span>
+                        </div>
+                        <img *ngIf="imgData[2].imgUrl" class="user-img" [src]="imgData[2].imgUrl" alt="" />
+                        <input type="file" (change)="uploadImg($event, 2)" accept="img/*" id="imgUpload" />
+                  </label>
+                  <label htmlFor="imgUpload">
+                        <div *ngIf="!imgData[3].imgUrl" class="upload-img-btn">
+                              <span class="material-symbols-outlined">upload</span>
+                        </div>
+                        <img *ngIf="imgData[3].imgUrl" class="user-img" [src]="imgData[3].imgUrl" alt="" />
+                        <input type="file" (change)="uploadImg($event,3)" accept="img/*" id="imgUpload" />
+                  </label>
+                  <label htmlFor="imgUpload">
+                        <div *ngIf="!imgData[4].imgUrl" class="upload-img-btn">
+                              <span class="material-symbols-outlined">upload</span>
+                        </div>
+                        <img *ngIf="imgData[4].imgUrl" class="user-img" [src]="imgData[4].imgUrl" alt="" />
+                        <input type="file" (change)="uploadImg($event, 4)" accept="img/*" id="imgUpload" />
+                  </label>
+            </div>
+            <div class="stay-info">
+                  <div class="numeric-inputs">
+                        <label for="capacity">Férőhely:
+                              <input type="number" max="8" min="0" value="0" [(ngModel)]="stay.capacity" name="capacity"
+                                    id="capacity">
+                        </label>
+                        <label for="bedrooms">Szobák:
+                              <input type="number" max="8" min="0" value="0" [(ngModel)]="stay.bedrooms" name="bedrooms"
+                                    id="bedrooms">
+                        </label>
+                        <label for="bathrooms">Fürdőszobák:
+                              <input type="number" max="8" min="0" value="0" [(ngModel)]="stay.bathrooms"
+                                    name="bathrooms" id="bathrooms">
+                        </label>
+                        <label for="price">Ár:
+                              <input type="number" min="0" [(ngModel)]="stay.price" name="price" id="price" required>
+                              Ft / éj
+                        </label>
+                  </div>
+                  <div class="select-inputs">
+                        <label for="stay-type">Típus:
+                              <ng-multiselect-dropdown class="label-picker" [data]="labels" [settings]="selectSettings"
+                                    [placeholder]="'Lehetőségek'" [ngModel]="stay.labels" (ngModel)="stay.labels"
+                                    name="labels"></ng-multiselect-dropdown>
+                        </label>
+                  </div>
+                  <div class="location">
+                        <label for="country">Ország:
+                              <input type="text" name="country" id="country" [(ngModel)]="stay.loc.country">
+                        </label>
+                        <label for="country">Város:
+                              <input type="text" name="city" id="city" [(ngModel)]="stay.loc.city">
+                        </label>
+                        <label for="country">Cím:
+                              <input type="text" name="address" id="address" [(ngModel)]="stay.loc.address">
+                        </label>
+                  </div>
+            </div>
+            <div class="stay-description">
+                  <span class="title">Leírás</span>
+                  <textarea name="summary" [(ngModel)]="stay.summary" id="summary" cols="94" rows="10"></textarea>
+            </div>
+            <button class="save-btn">Mentés</button>
+      </form>
+</section>
