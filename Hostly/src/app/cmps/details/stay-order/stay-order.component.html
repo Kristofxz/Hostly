@@ -1,0 +1,39 @@
+<section class="stay-order">
+    <div class="order-content">
+        <div class="stay-order-header">
+          <h2 class="total">{{ stay.price | currency:'HUF':'':'1.0' }} HUF<span></span></h2>
+        </div>
+        <div class="checkout-container">
+            <div class="checkout-btns">
+                <label for="calender" class="check-in">
+                    <span class="title">{{'stay.header.check-out' | translate}}</span>
+                    <span>{{getCheckIn() | date}}</span>
+                </label>
+                <input id="calender" type="text" [(ngModel)]="date" name="date" airbnb-calendar [options]="options" />
+                <label for="calender" class="check-out">
+                    <span class="title">{{'stay.header.check-in' | translate}}</span>
+                    <span>{{getCheckOut() | date}}</span>
+                </label>
+            </div>
+            <div class="guest-btn" (click)="showGuestModal=!showGuestModal">
+                <button>
+                    <span class="title">{{'stay.header.guests' | translate}}</span>
+                    <span>{{getGuests()}}</span>
+                </button>
+                <fa-icon *ngIf="!showGuestModal" [icon]="faChevronDown"></fa-icon>
+                <fa-icon *ngIf="showGuestModal" [icon]="faChevronUp"></fa-icon>
+            </div>
+            <guest-modal (toggleGuestModal)="toggleGuestModal()" [order]="order" [stay]="stay"
+                *ngIf="showGuestModal"></guest-modal>
+        </div>
+        <button class="order-btn" (click)="onAddOrder()">{{'stay.order.reserve' | translate}}</button>
+        <div class="order-description">
+            <span>{{'stay.order.description-one' | translate}}</span>
+            <p>{{'stay.order.description-two' | translate}}</p>
+        </div>
+        <div class="total-price">
+            <span>{{'stay.order.total' | translate}}</span>
+            <span>{{TotalPrice | number:'1.0'}} HUF</span>
+        </div>
+    </div>
+</section>

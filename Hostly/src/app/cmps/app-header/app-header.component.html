@@ -1,0 +1,23 @@
+<header class="main-layout full">
+    <div [ngClass]="isHeaderFilterActive ? 'header-content filter-active' : 'header-content'">
+        <div class="logo" routerLink="/">
+            <img src="https://cdn-icons-png.flaticon.com/512/535/535239.png" alt="">
+            <h2>Hostly</h2>
+        </div>
+        <nav>
+            <div class="menu" (click)="onToggleHeaderMenuModal()">
+                <fa-icon [icon]="faBars"></fa-icon>
+                <img [src]="getUserImg()" alt="">
+                <span *ngIf="UserNotification" class="notification">{{UserNotification}}</span>
+
+                <header-menu-modal (onToggleHeaderMenuModal)="onToggleHeaderMenuModal()" (toggleLanguageModal)="onToggleLanguageModal()"
+                [isOpenLanguageModal]="isOpenLanguageModal" [isOpenFooter]="false"
+                *ngIf="isShowHeaderMenuModal"></header-menu-modal>
+            </div>
+        </nav>
+    </div>
+    <header-filter *ngIf="isShowFilter" [isHeaderFilterActive]="isHeaderFilterActive"
+        (toggleHeaderFilter)="toggleHeaderFilter()"></header-filter>
+</header>
+
+<language-modal (onToggleLanguageModal)="onToggleLanguageModal()" *ngIf="isOpenLanguageModal"></language-modal>

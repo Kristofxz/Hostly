@@ -1,0 +1,52 @@
+[
+      {
+            "txt": "Amazing-views",
+            "translate": "stay.filter.amazing-views",
+            "img": "https://res.cloudinary.com/du63kkxhl/image/upload/v1685446872/stay-filter/amazing-views_ovr5cr.png"
+      },
+      {
+            "txt": "Trending",
+            "translate": "stay.filter.trending",
+            "img": "https://res.cloudinary.com/du63kkxhl/image/upload/v1685446872/stay-filter/trending_zraxau.png"
+      },
+      {
+            "txt": "Surfing",
+            "translate": "stay.filter.surfing",
+            "img": "https://res.cloudinary.com/du63kkxhl/image/upload/v1685446872/stay-filter/surfing_trgxdh.png"
+      },
+      {
+            "txt": "Mansions",
+            "translate": "stay.filter.mansions",
+            "img": "https://res.cloudinary.com/du63kkxhl/image/upload/v1685446872/stay-filter/mansions_w5j1ey.png"
+      },
+      {
+            "txt": "Luxe",
+            "translate": "stay.filter.luxe",
+            "img": "https://res.cloudinary.com/du63kkxhl/image/upload/v1685446871/stay-filter/luxe_hj1zab.png"
+      },
+      {
+            "txt": "Private-rooms",
+            "translate": "stay.filter.private-rooms",
+            "img": "https://res.cloudinary.com/du63kkxhl/image/upload/v1685446872/stay-filter/private-rooms_adfrpc.png"
+      },
+      {
+            "txt": "Lake front",
+            "translate": "stay.filter.lake-front",
+            "img": "https://res.cloudinary.com/du63kkxhl/image/upload/v1685446871/stay-filter/lake-front_n4yzrj.png"
+      },
+      {
+            "txt": "Tiny homes",
+            "translate": "stay.filter.tiny-homes",
+            "img": "https://res.cloudinary.com/du63kkxhl/image/upload/v1685446872/stay-filter/tiny-homes_bjldpu.png"
+      },
+      {
+            "txt": "Strand",
+            "translate": "Strand",
+            "img": "https://res.cloudinary.com/du63kkxhl/image/upload/v1685446871/stay-filter/beach_ay0mz6.png"
+      },
+      {
+        "txt": "Design",
+        "translate": "Design",
+        "img": "https://res.cloudinary.com/du63kkxhl/image/upload/v1685446871/stay-filter/design_iofuqw.png"
+      }
+]
