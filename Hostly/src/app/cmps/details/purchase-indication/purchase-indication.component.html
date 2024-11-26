@@ -1,12 +1,12 @@
 <section *ngIf="order" class="purchase-indication">
   <div *ngIf="!isAfterConfirm" class="title">
     <h2>Véglegesítés</h2>
-    <p>Kedves fasz,</p>
+    <p>Kedves vendég,</p>
     <p>Véglegesítéshez kérem ellenőrizze a megadott adatokat</p>
   </div>
   <div *ngIf="isAfterConfirm" class="title-after-confirm">
     <h2>Sikeres foglalás</h2>
-    <p>You can follow the order status in <a href="/user">My trip</a> page</p>
+    <p>A foglalásodat nyomon tudod követni a <a href="/user">Utazásaim</a> page</p>
   </div>
   <div class="content">
     <div class="details">
@@ -32,10 +32,6 @@
             <span>{{GetTotalDays}} éjszaka</span>
           </div>
           <span>{{Price | currency}}</span>
-        </div>
-        <div class="service">
-          <span>Service fee</span>
-          <span>{{ServiceFee | currency}}</span>
         </div>
       </div>
       <div class="price-total">
