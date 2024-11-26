@@ -85,7 +85,7 @@ export class UserOrderComponent {
     order.status = newStatus
     try {
       await this.orderService.save(order)
-      this.snackBar.open(`Status change to ${newStatus}`, 'Close', { duration: 3000 })
+      this.snackBar.open(`Status megváltozott: ${newStatus}`, 'Vissza', { duration: 3000 })
     } catch (err) {
       console.log(err)
     }

@@ -1,18 +1,18 @@
 <section *ngIf="order" class="purchase-indication">
   <div *ngIf="!isAfterConfirm" class="title">
-    <h2>One last step</h2>
+    <h2>Véglegesítés</h2>
     <p>Dir guest,</p>
-    <p>In order to complete your reservation, please confirm your trip details</p>
+    <p>Véglegesítéshez kérem ellenőrizze a megadott adatokat</p>
   </div>
   <div *ngIf="isAfterConfirm" class="title-after-confirm">
-    <h2>Reserved successfully</h2>
+    <h2>Sikeres foglalás</h2>
     <p>You can follow the order status in <a href="/user">My trip</a> page</p>
   </div>
   <div class="content">
     <div class="details">
-      <h3>Reservation details</h3>
+      <h3>Foglalás részletei</h3>
       <div class="dates">
-        <h4>Trip dates:</h4>
+        <h4>Foglalás dátuma:</h4>
         <div>
           <span>{{order.startDate | date: 'M/d/yy'}}</span>
           <span>-</span>
@@ -20,16 +20,16 @@
         </div>
       </div>
       <div class="guests">
-        <h4>Guests</h4>
+        <h4>Vendégek</h4>
         <div class="guest-list">{{getGuests}}</div>
       </div>
       <div class="price-details">
-        <h4>Price details</h4>
+        <h4>Ár</h4>
         <div class="price-night">
           <div>
             <span>{{order.stay.price | currency}}</span>
             <span>X</span>
-            <span>{{GetTotalDays}} nights</span>
+            <span>{{GetTotalDays}} éjszaka</span>
           </div>
           <span>{{Price | currency}}</span>
         </div>
@@ -39,7 +39,7 @@
         </div>
       </div>
       <div class="price-total">
-        <span>Total</span>
+        <span>Összesen</span>
         <span>{{order.totalPrice | currency}}</span>
       </div>
     </div>
@@ -49,8 +49,8 @@
     </div>
   </div>
   <div class="btn-container">
-    <button *ngIf="!isAfterConfirm" class="back" (click)="onClickBack()">Back</button>
-    <button *ngIf="!isAfterConfirm" class="confirm" (click)="onClickConfirm()">Confirm</button>
-    <button *ngIf="isAfterConfirm" class="close" (click)="onClickClose()">Close</button>
+    <button *ngIf="!isAfterConfirm" class="back" (click)="onClickBack()">Vissza</button>
+    <button *ngIf="!isAfterConfirm" class="confirm" (click)="onClickConfirm()">Küldés</button>
+    <button *ngIf="isAfterConfirm" class="close" (click)="onClickClose()">Bezár</button>
   </div>
 </section>
