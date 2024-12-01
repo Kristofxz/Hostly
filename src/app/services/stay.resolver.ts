@@ -1,9 +1,5 @@
 import { Injectable } from '@angular/core';
-import {
-  Resolve,
-  RouterStateSnapshot,
-  ActivatedRouteSnapshot
-} from '@angular/router';
+import { RouterStateSnapshot, ActivatedRouteSnapshot } from '@angular/router';
 import { Observable } from 'rxjs';
 import { Stay } from '../models/stay.model';
 import { StayService } from './stay.service';
@@ -11,7 +7,7 @@ import { StayService } from './stay.service';
 @Injectable({
   providedIn: 'root'
 })
-export class StayResolver implements Resolve<Stay> {
+export class StayResolver  {
 
   constructor(private stayService: StayService) { }
 
