@@ -13,7 +13,7 @@
     "watch": "ng build --watch --configuration development",
     "postinstall": "ngcc",
     "prerender": "ng run airbnb:prerender",
-    "heroku-postbuild": "ng build --configuration production"
+    "heroku-postbuild": "npm install --legacy-peer-deps && npm run build"
   },
   "private": true,
   "repository": {
@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/oferGavrilov/AirBNB-backend#readme",
   "devDependencies": {
-    "@angular-builders/custom-webpack": "^18.0.0",
+   "@angular-builders/custom-webpack": "^15.0.0",
     "@angular-devkit/build-angular": "^15.1.6",
     "@angular/cli": "^15.2.11",
     "@angular/compiler-cli": "^15.1.0",
