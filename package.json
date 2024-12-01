@@ -13,7 +13,7 @@
     "watch": "ng build --watch --configuration development",
     "postinstall": "ngcc",
     "prerender": "ng run airbnb:prerender",
-     "heroku-postbuild": "npm install --legacy-peer-deps && npm run build"
+    "heroku-postbuild": "npm install --force && npm run build"
   },
   "private": true,
   "repository": {
