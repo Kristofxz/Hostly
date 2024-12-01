@@ -8,10 +8,15 @@ import { setupAsyncLocalStorage } from './middlewares/setupAls.middleware';
 
 const app = express();
 
-app.use(express.static('public'));
+app.use(express.static(path.join(__dirname, 'dist/airbnb')));
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'dist/airbnb/index.html'));
+});
+
 app.use(cookieParser());
 app.use(express.json());
 app.use(compression());
+app.use(cors());
 const http = require('http').createServer(app);
 
 if (process.env['NODE_ENV'] === 'production') {

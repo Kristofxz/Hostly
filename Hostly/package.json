@@ -6,13 +6,14 @@
   "scripts": {
     "ng": "ng",
     "test": "mocha",
-    "build": "ng build",
-    "start": "nodemon --ignore \"./data\" server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
     "dev": "nodemon --ignore \"./data\" server.ts",
     "build:stats": "ng build --stats-json",
     "watch": "ng build --watch --configuration development",
     "postinstall": "ngcc",
-    "prerender": "ng run airbnb:prerender"
+    "prerender": "ng run airbnb:prerender",
+    "heroku-postbuild": "ng build --configuration production"
   },
   "private": true,
   "repository": {
@@ -85,6 +86,7 @@
     "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
     "cryptr": "^6.2.0",
+    "domhandler": "^5.0.3",
     "express": "^4.18.2",
     "install": "^0.13.0",
     "mongodb": "^5.9.2",
